@@ -1,0 +1,12 @@
+[
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0, 
+        "last_rev": 8477, 
+        "last_value": 0.4490315430011833, 
+        "name": "core.startup.time_import_api", 
+        "pretty_name": "core.startup.time_import_api", 
+        "prev_value": null
+    }
+]

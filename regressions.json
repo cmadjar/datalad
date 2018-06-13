@@ -1,0 +1,401 @@
+{
+    "regressions": [
+        [
+            "core.runner.time_echo_gitrunner", 
+            "graphs/arch-x86_64/branch-0.9.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.runner.time_echo_gitrunner.json", 
+            {
+                "branch": "0.9.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        7700, 
+                        0.0015752891199999795, 
+                        0.001760820852825418
+                    ]
+                ], 
+                0.001760820852825418, 
+                0.0015752891199999795
+            ]
+        ], 
+        [
+            "core.startup.time_help_np", 
+            "graphs/arch-x86_64/branch-0.9.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.startup.time_help_np.json", 
+            {
+                "branch": "0.9.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5979, 
+                        0.2576902151340619, 
+                        0.3422851637005806
+                    ], 
+                    [
+                        null, 
+                        6394, 
+                        0.3422851637005806, 
+                        0.36759609216824174
+                    ], 
+                    [
+                        null, 
+                        6920, 
+                        0.36759609216824174, 
+                        0.3928756235400215
+                    ]
+                ], 
+                0.3928756235400215, 
+                0.2576902151340619
+            ]
+        ], 
+        [
+            "core.startup.time_import", 
+            "graphs/arch-x86_64/branch-0.9.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.startup.time_import.json", 
+            {
+                "branch": "0.9.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5244, 
+                        0.08199099084595218, 
+                        0.09104488304583355
+                    ], 
+                    [
+                        null, 
+                        5824, 
+                        0.09104488304583355, 
+                        0.12338811070658268
+                    ]
+                ], 
+                0.11121678026393056, 
+                0.08199099084595218
+            ]
+        ], 
+        [
+            "core.startup.time_import_api", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-2.7/ram-65948008/core.startup.time_import_api.json", 
+            {
+                "branch": "master", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "2.7", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5845, 
+                        0.1678330898284912, 
+                        0.2233738899230957
+                    ], 
+                    [
+                        null, 
+                        6750, 
+                        0.2233738899230957, 
+                        0.3719944953918457
+                    ], 
+                    [
+                        null, 
+                        8315, 
+                        0.26135993003845215, 
+                        0.47057414054870605
+                    ]
+                ], 
+                0.47057414054870605, 
+                0.1678330898284912
+            ]
+        ], 
+        [
+            "core.startup.time_import_api", 
+            "graphs/arch-x86_64/branch-0.5.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-2.7/ram-65948008/core.startup.time_import_api.json", 
+            {
+                "branch": "0.5.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "2.7", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5824, 
+                        0.1677706241607666, 
+                        0.20216097831726074
+                    ]
+                ], 
+                0.20216097831726074, 
+                0.1677706241607666
+            ]
+        ], 
+        [
+            "api.supers.time_ls_recursive", 
+            "graphs/arch-x86_64/branch-0.5.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-2.7/ram-65948008/api.supers.time_ls_recursive.json", 
+            {
+                "branch": "0.5.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "2.7", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5244, 
+                        0.937688946723938, 
+                        1.358821988105774
+                    ], 
+                    [
+                        null, 
+                        5764, 
+                        1.358821988105774, 
+                        1.5129685401916504
+                    ], 
+                    [
+                        null, 
+                        5824, 
+                        1.5129685401916504, 
+                        1.6404070854187012
+                    ]
+                ], 
+                1.6404070854187012, 
+                0.937688946723938
+            ]
+        ], 
+        [
+            "core.startup.time_import_api", 
+            "graphs/arch-x86_64/branch-0.9.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-2.7/ram-65948008/core.startup.time_import_api.json", 
+            {
+                "branch": "0.9.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "2.7", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5845, 
+                        0.1678330898284912, 
+                        0.2233738899230957
+                    ], 
+                    [
+                        null, 
+                        6750, 
+                        0.2233738899230957, 
+                        0.3719944953918457
+                    ]
+                ], 
+                0.2544901371002197, 
+                0.1678330898284912
+            ]
+        ], 
+        [
+            "core.runner.time_echo", 
+            "graphs/arch-x86_64/branch-0.9.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.runner.time_echo.json", 
+            {
+                "branch": "0.9.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        7700, 
+                        0.0011245429649998186, 
+                        0.001292160948039964
+                    ]
+                ], 
+                0.001338070971891284, 
+                0.0011245429649998186
+            ]
+        ], 
+        [
+            "core.startup.time_import", 
+            "graphs/arch-x86_64/branch-0.5.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-2.7/ram-65948008/core.startup.time_import.json", 
+            {
+                "branch": "0.5.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "2.7", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5824, 
+                        0.05898925065994263, 
+                        0.08789970874786376
+                    ]
+                ], 
+                0.08789970874786376, 
+                0.05898925065994263
+            ]
+        ], 
+        [
+            "api.testds.time_create_test_dataset2x2", 
+            "graphs/arch-x86_64/branch-0.5.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/api.testds.time_create_test_dataset2x2.json", 
+            {
+                "branch": "0.5.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5083, 
+                        1.1645118395099416, 
+                        2.0409273649565876
+                    ], 
+                    [
+                        null, 
+                        5393, 
+                        2.0409273649565876, 
+                        2.503688187338412
+                    ], 
+                    [
+                        null, 
+                        5764, 
+                        2.503688187338412, 
+                        3.013095811009407
+                    ]
+                ], 
+                3.013095811009407, 
+                1.1645118395099416
+            ]
+        ], 
+        [
+            "core.runner.time_echo_gitrunner", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.runner.time_echo_gitrunner.json", 
+            {
+                "branch": "master", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        7753, 
+                        0.0015867403725001168, 
+                        0.0017802057430380954
+                    ], 
+                    [
+                        null, 
+                        8291, 
+                        0.0017802057430380954, 
+                        0.001864941560663283
+                    ]
+                ], 
+                0.001864941560663283, 
+                0.0015867403725001168
+            ]
+        ], 
+        [
+            "core.startup.time_import", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.startup.time_import.json", 
+            {
+                "branch": "master", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5244, 
+                        0.08199099084595218, 
+                        0.09104488304583355
+                    ], 
+                    [
+                        null, 
+                        5824, 
+                        0.09104488304583355, 
+                        0.12329605415593506
+                    ]
+                ], 
+                0.11094943016069009, 
+                0.08199099084595218
+            ]
+        ], 
+        [
+            "core.startup.time_help_np", 
+            "graphs/arch-x86_64/branch-0.5.x/cpu-Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz/machine-drogon-neurodebian1.1/os-Linux 4.6.0-rc1+/python-3.4/ram-65948008/core.startup.time_help_np.json", 
+            {
+                "branch": "0.5.x", 
+                "cpu": "Intel(R) Xeon(R) CPU E5-1607 v2 @ 3.00GHz", 
+                "machine": "drogon-neurodebian1.1", 
+                "os": "Linux 4.6.0-rc1+", 
+                "python": "3.4", 
+                "ram": "65948008"
+            }, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        5824, 
+                        0.2463397248648107, 
+                        0.2785887513309717
+                    ]
+                ], 
+                0.2785887513309717, 
+                0.2463397248648107
+            ]
+        ]
+    ]
+}
